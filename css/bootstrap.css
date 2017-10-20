@@ -6759,7 +6759,7 @@ button.close {
     background:url(../images/desert.gif) no-repeat center center;
     background-size:cover;
     height:100%;
-    position:fixed !important;
+    position:fixed;
     width:100%;
     z-index:-2;
     top:0;
@@ -6768,40 +6768,23 @@ button.close {
 
 .parallax2 {
 
-    background-image: url(../images/water.gif);
-
-
-    height: 100%;
-
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-@media (max-width:640px) {
-  section {
-    background-attachment:initial;
-  }
-}
+    background:url(../images/lscape.jpeg) no-repeat center center;
+    background-size:cover;
+    height:100%;
+    position:fixed;
+    width:100%;
+    z-index:-2;
+    top:0;
 }
 
 .parallax3 {
-
-    background-image: url(../images/lscape.jpg);
-
-
-    height: 100%;
-
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-@media (max-width:640px) {
-  section {
-    background-attachment:initial;
-  }
-}
+    background:url(../images/desert.gif) no-repeat center center;
+    background-size:cover;
+    height:100%;
+    position:fixed;
+    width:100%;
+    z-index:-2;
+    top:0;
 }
 
 .span {
