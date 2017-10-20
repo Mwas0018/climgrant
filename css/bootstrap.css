@@ -6756,20 +6756,13 @@ button.close {
 }
 
 .parallax {
-
-    background-image: url(../images/desert.gif);
-
-
-    height: 100%;
-
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-                if(navigator.userAgent.match(/iPad/i)){
-                background-size: auto
-}
+    background:url(../images/desert.gif) no-repeat center center;
+    background-size:cover;
+    height:100%;
+    position:fixed !important;
+    width:100%;
+    z-index:-2;
+    top:0;
 }
 
 
