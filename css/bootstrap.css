@@ -6767,9 +6767,9 @@ button.close {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    @media (max-width: @iphone-screen) {
-            background-attachment: scroll;
-        }
+                if(navigator.userAgent.match(/iPad/i)){
+                background-size: auto
+}
 }
 
 
