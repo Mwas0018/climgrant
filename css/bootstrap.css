@@ -6756,35 +6756,47 @@ button.close {
 }
 
 .parallax {
-    background:url(../images/desert.gif) no-repeat center center;
-    background-size:cover;
-    height:100%;
-    position:fixed;
-    width:100%;
-    z-index:-2;
-    top:0;
+    background-image: url(../images/desert.gif);
+
+
+    height: 100%;
+
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 
 .parallax2 {
 
-    background:url(../images/lscape.jpeg) no-repeat center center;
-    background-size:cover;
-    height:100%;
-    position:fixed;
-    width:100%;
-    z-index:-2;
-    top:0;
+    background-image: url(../images/water.gif);
+
+
+    height: 100%;
+
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .parallax3 {
-    background:url(../images/desert.gif) no-repeat center center;
-    background-size:cover;
-    height:100%;
-    position:fixed;
-    width:100%;
-    z-index:-2;
-    top:0;
+    background-image: url(../images/lscape.jpg);
+
+
+    height: 100%;
+
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .span {
