@@ -6785,7 +6785,11 @@ button.close {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
+@media (max-width:640px) {
+  section {
+    background-attachment:initial;
+  }
+}
 }
 
 .parallax3 {
@@ -6800,7 +6804,11 @@ button.close {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
+@media (max-width:640px) {
+  section {
+    background-attachment:initial;
+  }
+}
 }
 
 .span {
